@@ -1,0 +1,145 @@
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items : center;
+}
+
+.header-logo {
+    width: auto;
+    height: auto;
+    margin: 20px 300px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    
+}
+
+.header ul {
+    width: auto;
+    height: auto;
+    margin: 20px 300px;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.first {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow-wrap: break-word;
+    
+}
+
+.tag1 {
+    width : 400px;
+    height: auto;
+    margin: 50px;
+    padding: 50px;
+}
+.font1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color : #F9FAF8;
+    display: inline;
+}
+
+.second {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 100px 0px;
+}
+
+.font3 {
+    font-size: 36px;
+}
+
+.boxes {
+    display :flex;
+    gap: 20px;
+}
+.boxe-1,
+.boxe-2,
+.boxe-3,
+.boxe-4 {
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-self: center;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    width: 200px;
+    height: 200px;
+    border: solid;
+    border-radius: 5px;
+}
+
+.third {
+    background-color: #e5e7eb ;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding : 100px 700px;
+}
+
+.thor {
+    display: inline-flex;
+    align-self: flex-end;
+}
+
+.last {
+   
+    background-color: #3882f6;
+    color: white;
+    margin: 100px 500px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid;
+    border-radius: 5px;
+    
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    box-shadow: none;
+    
+}
+
+button:hover {
+    background-color : grey;
+}
+
+.b2 {
+    border: solid;
+    border-radius: 5px;
+}
